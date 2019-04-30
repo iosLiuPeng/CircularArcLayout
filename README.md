@@ -9,13 +9,19 @@
 
 
 <div align="center">
-<img src="/Assets/IMG_1.PNG" height="1067" width="600" >
-<img src="/Assets/IMG_2.PNG" height="1067" width="600" >
-<img src="/Assets/IMG_3.PNG" height="1067" width="600" >
-
+<img src="/Assets/IMG_1.PNG" height="400" width="717" >
+<br>
+<img src="/Assets/IMG_2.PNG" height="400" width="717" >
+<br>
+<img src="/Assets/IMG_3.PNG" height="400" width="717" >
+<br>
+<br>
 <img src="/Assets/IMB_1.GIF" >
+<br>
 <img src="/Assets/IMB_2.GIF" >
+<br>
 <img src="/Assets/IMB_3.GIF" >
+<br>
 </div> 
 
 --------------------------------
