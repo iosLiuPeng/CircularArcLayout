@@ -153,7 +153,7 @@
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:0];
             UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:indexPath];
             
-            if (CGRectIntersectsRect(_circleFrame, attributes.frame)) {
+            if (CGRectIntersectsRect(self.collectionView.bounds, attributes.frame)) {
                 // 在范围中
                 [arrAttributes addObject:attributes];
                 [arrIndex addObject:@(i)];
@@ -171,7 +171,7 @@
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:0];
             UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:indexPath];
             
-            if (CGRectIntersectsRect(_circleFrame, attributes.frame)) {
+            if (CGRectIntersectsRect(self.collectionView.bounds, attributes.frame)) {
                 // 在范围中
                 [arrAttributes addObject:attributes];
                 [arrIndex addObject:@(i)];

@@ -39,7 +39,7 @@
 - (void)dataConfig
 {
     NSMutableArray *muarr = [[NSMutableArray alloc] init];
-    for (NSInteger i = 0; i < 10; i++) {
+    for (NSInteger i = 0; i < 30; i++) {
         int R = (arc4random() % 256) ;
         int G = (arc4random() % 256) ;
         int B = (arc4random() % 256) ;
