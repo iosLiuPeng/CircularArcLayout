@@ -7,17 +7,16 @@
 ·支持步进滑动  
 ·处理了屏幕旋转适配  
 
-![img1][img1]  
 
-![img2][img2]  
+<div align="center">
+<img src="/Assets/IMG_1.PNG" height="600" width="1067" >
+<img src="/Assets/IMG_2.PNG" height="600" width="1067" >
+<img src="/Assets/IMG_3.PNG" height="600" width="1067" >
 
-![img3][img3]  
-
-![gif1][gif1]  
-
-![gif2][gif2]  
-
-![gif3][gif3]  
+<img src="/Assets/IMB_1.PNG" >
+<img src="/Assets/IMB_2.PNG" >
+<img src="/Assets/IMB_3.PNG" >
+</div> 
 
 --------------------------------
 [img1]:/Assets/IMG_1.PNG
