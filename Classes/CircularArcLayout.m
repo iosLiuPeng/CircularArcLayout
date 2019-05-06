@@ -242,13 +242,18 @@
             addit = -1;
         }
         
-        _currnetIndex += addit;
+        NSInteger index = _currnetIndex + addit;
+        if (index >= 0 && index < _itemCount) {
+            _currnetIndex = index;
+        }
     } else {
         // 推荐位置最近的元素
         NSInteger index = floor(offsetX / itemConetntWidth);
         index += (offsetX - index * itemConetntWidth) >= itemConetntWidth * 0.5? 1: 0;
         if (index >= _itemCount) {
             index = _itemCount - 1;
+        } else if (index < 0) {
+            index = 0;
         }
         
         _currnetIndex = index;
